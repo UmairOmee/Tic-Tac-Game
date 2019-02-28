@@ -1,0 +1,37 @@
+body { 
+  color: #222; 
+  background-color: #ccf1ff;
+  font: 400 14px CoreSans, Arial, sans-serif; 
+}
+button { padding: 10px; border-radius: 5px; border: 1px solid #dddddd;
+background-color:#6ba9c0 ; color: white; cursor: pointer;
+}
+button:hover { color: #222; }
+*:focus { outline: none; }
+
+.container{
+  text-align: center;
+}
+.tile {
+  width: 30% !important;
+  height: 150px;
+  font-size: 60px !important;
+  background: white;
+  border: 5px solid #ccf1ff;
+  display: inline-block;
+  float: left;
+  line-height: 150px;
+ 
+}
+.tile p{
+ color: yellowgreen;
+ 
+ 
+}
+.tile:hover{
+  background-color:#1ad5ff;
+}
+
+
+
+
